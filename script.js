@@ -26,6 +26,10 @@ request.onload=function(){
     console.log(region);
     var result2=region.map((ele)=>ele.name);
     console.log(result2);
+
+    var pop1=result.reduce((acc,cv)=>acc+cv.population,0) //.map((ele)=>ele.name);
+    console.log(pop1);
+    
 };
 
 
