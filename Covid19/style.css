@@ -3,3 +3,12 @@
     flex-wrap: wrap;
     justify-content: center;
     }
+.style{
+    background-color: rgb(139, 197, 201);
+
+}
+.form-group{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
